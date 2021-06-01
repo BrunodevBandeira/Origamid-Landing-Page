@@ -65,7 +65,7 @@ p {
     text-align: right;
 }
 
-.header_menu ul li{
+.header_menu ul li{ 
     text-align: right;
     display: inline-block; /*Tira a quebra de linha dos li's*/
     margin-left: 25px;
@@ -203,4 +203,30 @@ p {
 
 .call p {
     margin-bottom: 20px;
+}
+
+/**/
+/*PORTIFÓLIO*/
+
+.portfolio {
+    width: 100%;
+    background: #000;
+    padding: 40px 0;
+}
+
+
+.portfolio .subtitulo {
+    color: #fec63e;
+}
+
+.portfolio .subtitulo:after{
+    background: #fec63e;
+}
+
+.portfolio_lista li:last-child { /*Selecione o último item*/
+    margin-top: 20px;
+}
+
+.portfolio .call p {
+color: #fff;
 }
