@@ -102,6 +102,10 @@ img {
     z-index: 10;
 }
 
+.header_menu ul li a.menu_ativo {
+    color: #fff;
+}
+
 
 /*INTRODUÇÂO*/
 /**/
@@ -293,6 +297,7 @@ color: #fff;
 
 .qualidade_lista {
     padding-top: 40px;
+    overflow: auto;
 }
 
 .qualidade_lista li {
